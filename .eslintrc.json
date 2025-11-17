@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "airbnb"
+    // Tambahkan konfigurasi lain di sini jika diperlukan (misal: 'airbnb/hooks' untuk React Hooks)
+  ],
+  "rules": {
+    // Di sini Anda dapat menimpa (override) atau mematikan (disable) aturan Airbnb
+    // Contoh menimpa:
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": "off",
+    "no-console": "warn",
+    "no-underscore-dangle": "off"
+  },
+  "env": {
+    // Tambahkan lingkungan yang Anda gunakan
+    "browser": true,
+    "node": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+    // Jika Anda menggunakan React, tambahkan:
+    // "ecmaFeatures": {
+    //   "jsx": true
+    // }
+  }
+}
